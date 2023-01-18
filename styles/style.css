@@ -193,6 +193,7 @@
     margin-right: 100px;
     margin-left: 100px;
     column-gap: 100px;
+    margin-bottom: 100px;
 }
 
 .experience-banner {
@@ -247,4 +248,132 @@
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+}
+
+
+
+
+
+
+/*--------------------------
+     Award Section 
+----------------------------*/
+
+.award-section {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.awards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-top: 100px;
+
+}
+
+.award-logo {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+}
+
+.award-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.award-detail {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.award-logo img {
+    position: absolute;
+    left: 39%;
+    top: 14%;
+
+}
+
+.detail-container {
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    top: 36%;
+
+}
+
+.detail-info {
+    color: #424242;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.detail-info-2 {
+    color: #727272;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+
+/* -------------------------------
+        Sponsor Section
+------------------------------- */
+
+
+.sponsor-section {
+    margin: 100px 100px;
+}
+
+.sponsor-title {
+    text-align: center;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.sponsor-title-info {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-title-detail {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+/*------------------------ 
+        Footer Section 
+--------------------------------*/
+
+
+.footer-section {
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 70px;
+    margin: 100px 100px 30px 100px;
+    text-align: center;
+    padding-top: 30px;
 }
