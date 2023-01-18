@@ -1,7 +1,7 @@
 * {
     font-family: 'Work Sans';
 
-    
+
 }
 
 
@@ -11,7 +11,7 @@
     Header Styles 
 -------------------------*/
 
-.header-container{
+.header-container {
     background-color: rgba(255, 144, 14, 0.1);
 }
 
@@ -21,8 +21,8 @@
     padding-top: 50px;
     padding-right: 80px;
     padding-left: 80px;
-    
-    
+
+
 
 
 }
@@ -97,10 +97,10 @@
 ---------------------------*/
 
 .banner img {
-    width: 1400px;
-    height: 700px;
+    width: 1300px;
+    height: 600px;
     margin-top: 50px;
-    padding-left: 40px;
+    padding-left: 90px;
     padding-bottom: 45px;
 
 }
@@ -120,6 +120,7 @@
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 130px;
 }
 
 .feature-img {
@@ -177,4 +178,73 @@
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+}
+
+
+
+
+/*-------------------------------
+     Experience section 
+-----------------------------*/
+
+
+.experience-container {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    column-gap: 100px;
+}
+
+.experience-banner {
+    position: relative;
+}
+
+.experience-banner img {
+    width: 500px;
+    height: 700px;
+}
+
+.experience-details {
+    row-gap: 200px;
+}
+
+.experience-info {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.experience-btn {
+    position: absolute;
+    right: 55%;
+    top: 80%;
+    width: 300px;
+    height: 150px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.experience-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.ex-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ex-detail {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
 }
